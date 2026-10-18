@@ -2,24 +2,24 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T19:38:00+08:00",
+  "updatedAt": "2026-10-18T20:14:51+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
       "name": "多聚短剧·绿色版",
       "author": "JmwPower",
       "desc": "多聚短剧精简版。",
-      "version": "1.4.59",
+      "version": "1.4.60",
       "type": "import",
-      "size": 6208450,
+      "size": 6071313,
       "url": "packages/duoju-lite-green.zip",
       "icon": "icons/duoju.png",
       "tags": [
         "网络",
         "服务"
       ],
-      "changelog": "包结构调整：二进制置于包根目录，去除 bin/ds 目录。",
-      "md5": "6726a6eb72f50cf3fbad90425558466c",
+      "changelog": "v1.4.60：修复自动切集几集后没声音；加起播看门狗防黑屏。",
+      "md5": "8bdfd5c0be9ddea68bb3a91a15b28ef8",
       "category": "env",
       "platforms": [
         "android"

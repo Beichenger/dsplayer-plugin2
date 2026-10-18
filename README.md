@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/JMWpower/dsplayer-plugin/main/market.json
 
 | 条目 | id | 版本 | type | 包 |
 |---|---|---|---|---|
-| 多聚短剧·绿色版 | `duoju-lite-green` | 1.4.59 | import | `duoju-lite-green.zip` |
+| 多聚短剧·绿色版 | `duoju-lite-green` | 1.4.60 | import | `duoju-lite-green.zip` |
 | 多聚听书 | `duoju-ting` | 1.9.2 | import | `duoju-ting.zip` |
 | 多聚网盘（安卓） | `duojupan` | 1.6.1 | import | `duojupan-1.6.1.zip` |
 | 多聚网盘（Windows） | `duojupan-win` | 1.6.1 | import | `duojupan-win-1.6.1.zip` |
