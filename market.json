@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T20:14:51+08:00",
+  "updatedAt": "2026-10-18T20:22:28+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -96,17 +96,17 @@
       "name": "多聚听书",
       "author": "JmwPower",
       "desc": "多聚听书后端服务",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "type": "import",
-      "size": 3347221,
+      "size": 3352353,
       "url": "packages/duoju-ting.zip",
       "icon": "icons/duojuting.png",
       "tags": [
         "网络",
         "服务"
       ],
-      "changelog": "搜索排序优化。",
-      "md5": "86536e101f535fa231d4a301bc35a33c",
+      "changelog": "v1.9.3：后台续播——注册 MediaSession 保活防杀进程，退后台被挂起自动续播。",
+      "md5": "ea9d43e0d26f41060ca0edcb9545fbec",
       "category": "env",
       "platforms": [
         "android"
