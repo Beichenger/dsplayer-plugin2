@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T15:16:00+08:00",
+  "updatedAt": "2026-10-18T15:52:00+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -139,17 +139,17 @@
       "name": "多聚网盘",
       "author": "JmwPower",
       "desc": "多聚网盘后台：夸克/UC/百度网盘登录管理与分享播放，豆瓣分类与盘搜聚合 API，供盘搜规则调用。安卓端。",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "type": "import",
-      "size": 18360367,
-      "url": "packages/duojupan-1.5.0.zip",
+      "size": 9532257,
+      "url": "packages/duojupan-1.6.0.zip",
       "icon": "icons/duoju.png",
       "tags": [
         "网络",
         "服务"
       ],
-      "changelog": "v1.5.0：分片并发播放加速；DNS 自适应回退；盘搜聚合 API；恢复 UC 支持。",
-      "md5": "0a6ff0bc0effa5c36c649900489aff23",
+      "changelog": "v1.6.0：秒搜——搜索后台预热，详情页零等待直接出已验证的最佳线路；追剧订阅——观看自动记录进度，豆瓣资料页一键追/取关，订阅刷新自动算新集数。",
+      "md5": "36fb0a275c960c3b93678e24a78af65c",
       "category": "env",
       "platforms": [
         "android"
@@ -160,17 +160,17 @@
       "name": "多聚网盘 Windows版",
       "author": "JmwPower",
       "desc": "多聚网盘后台 Windows 端：夸克/UC/百度网盘登录管理与分享播放，豆瓣分类与盘搜聚合 API，供盘搜规则调用。",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "type": "import",
-      "size": 19733255,
-      "url": "packages/duojupan-win-1.5.0.zip",
+      "size": 10314774,
+      "url": "packages/duojupan-win-1.6.0.zip",
       "icon": "icons/duoju.png",
       "tags": [
         "网络",
         "服务"
       ],
-      "changelog": "v1.5.0：分片并发播放加速；DNS 自适应回退；盘搜聚合 API；恢复 UC 支持。",
-      "md5": "c301a448a042a22f595be779d2d74668",
+      "changelog": "v1.6.0：秒搜——搜索后台预热，详情页零等待直接出已验证的最佳线路；追剧订阅——观看自动记录进度，豆瓣资料页一键追/取关，订阅刷新自动算新集数。",
+      "md5": "357562b183607e700b817dd18cca72f9",
       "category": "env",
       "platforms": [
         "win32"
@@ -181,13 +181,13 @@
       "name": "豆瓣盘搜",
       "author": "JmwPower",
       "desc": "豆瓣影视聚合盘搜规则：豆瓣分类/搜索聚合夸克/UC/百度网盘资源，封面与详细资料推送到原生播放页。需先安装「多聚网盘」。",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "type": "source",
       "category": "app",
-      "url": "packages/douban-pansou-1.0.0.zip",
-      "size": 12861,
-      "md5": "77cf125f9a15331bbc5d2db7fd9ff821",
-      "changelog": "首个版本：豆瓣分类/搜索/详情/选集，空来源自动屏蔽。",
+      "url": "packages/douban-pansou-1.1.0.zip",
+      "size": 13939,
+      "md5": "a97a24234e598ebccb025fa5a6318013",
+      "changelog": "v1.1.0：追剧订阅（详情页一键追/取关、播放自动记进度、有新集高亮）；秒搜预热（搜索后台预探测，详情秒出线路与集数徽标）。",
       "tags": [
         "本地源",
         "规则"
