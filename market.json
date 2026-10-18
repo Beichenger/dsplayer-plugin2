@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T20:49:11+08:00",
+  "updatedAt": "2026-10-18T20:55:00+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -228,9 +228,9 @@
       "type": "source",
       "category": "app",
       "url": "packages/my-home-1.0.3.zip",
-      "size": 213576,
-      "md5": "963d92894a1d07606807ecc22b4f90fc",
-      "changelog": "v1.0.3：多风格炫彩主页 web 源包。",
+      "size": 215743,
+      "md5": "e8851ae12134f5ca2c989f749cc89bd4",
+      "changelog": "v1.0.3：多风格炫彩主页 web 源包；更新分类筛选。",
       "tags": [
         "本地源",
         "主页"
