@@ -14,8 +14,8 @@ https://raw.githubusercontent.com/JMWpower/dsplayer-plugin/main/market.json
 |---|---|---|---|---|
 | 多聚短剧·绿色版 | `duoju-lite-green` | 1.4.59 | import | `duoju-lite-green.zip` |
 | 多聚听书 | `duoju-ting` | 1.9.2 | import | `duoju-ting.zip` |
-| 多聚网盘（安卓） | `duojupan` | 1.6.0 | import | `duojupan-1.6.0.zip` |
-| 多聚网盘（Windows） | `duojupan-win` | 1.6.0 | import | `duojupan-win-1.6.0.zip` |
+| 多聚网盘（安卓） | `duojupan` | 1.6.1 | import | `duojupan-1.6.1.zip` |
+| 多聚网盘（Windows） | `duojupan-win` | 1.6.1 | import | `duojupan-win-1.6.1.zip` |
 
 ### 应用（app）
 
@@ -25,4 +25,4 @@ https://raw.githubusercontent.com/JMWpower/dsplayer-plugin/main/market.json
 | MusicK音乐 | `musick-api` | 1.0.0 | server | `music_api-main.zip` |
 | MusicK音乐配套源 | `musick-source` | 1.2.1 | source | `musick-source.zip` |
 | 多聚听书配套源 | `duoju-ting-source` | 1.9.1 | source | `duoju-ting-source.zip` |
-| 豆瓣盘搜 | `douban-pansou` | 1.1.0 | source | `douban-pansou-1.1.0.zip` |
+| 豆瓣盘搜 | `douban-pansou` | 1.1.1 | source | `douban-pansou-1.1.1.zip` |
