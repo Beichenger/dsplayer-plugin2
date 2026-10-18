@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T16:02:00+08:00",
+  "updatedAt": "2026-10-18T19:38:00+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -193,6 +193,49 @@
         "规则"
       ],
       "icon": "icons/duoju.png",
+      "platforms": [
+        "android",
+        "win32"
+      ]
+    },
+    {
+      "id": "lanmei-lite",
+      "name": "蓝莓短剧",
+      "author": "JmwPower",
+      "desc": "蓝莓短剧站点适配插件,需口令",
+      "version": "1.0.15",
+      "type": "import",
+      "size": 3382568,
+      "url": "packages/lanmei-lite-1.0.15.zip",
+      "icon": "icons/lanmei.png",
+      "tags": [
+        "网络",
+        "服务"
+      ],
+      "changelog": "v1.0.15：会话自动过口令门并修复登录资料（到期/积分/观看/绑定状态）；积分商店内嵌原站网页；播放防黑屏与声音看门狗；推荐流限前5集；选集抽屉新增同IP tab；倍速播放弹幕恒为1倍速。",
+      "md5": "0cd5efe82e7a9fc38dd05969b9bce7a5",
+      "category": "env",
+      "platforms": [
+        "android"
+      ]
+    },
+    {
+      "id": "my-home",
+      "name": "炫彩主页web源",
+      "author": "JmwPower",
+      "desc": "稻壳适配多风格炫彩主页,安装后web源选ui即可,ui来自LZ",
+      "version": "1.0.3",
+      "type": "source",
+      "category": "app",
+      "url": "packages/my-home-1.0.3.zip",
+      "size": 213576,
+      "md5": "963d92894a1d07606807ecc22b4f90fc",
+      "changelog": "v1.0.3：多风格炫彩主页 web 源包。",
+      "tags": [
+        "本地源",
+        "主页"
+      ],
+      "icon": "icons/demo-sources.png",
       "platforms": [
         "android",
         "win32"
