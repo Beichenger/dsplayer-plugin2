@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18T21:33:11+08:00",
+  "updatedAt": "2026-10-18T21:49:37+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -205,7 +205,7 @@
       "desc": "蓝莓短剧站点适配插件,需口令",
       "version": "1.0.17",
       "type": "import",
-      "size": 3644497,
+      "size": 3383647,
       "url": "packages/lanmei-lite-1.0.17.zip",
       "icon": "icons/lanmei.png",
       "tags": [
@@ -213,7 +213,7 @@
         "服务"
       ],
       "changelog": "v1.0.17：修复站点登录轮换会话后口令门态丢失导致的全集解析失败与资料/绑定状态异常；解析撞门自动补门重试。",
-      "md5": "9be2ceca9cadea2236a1f68638634f96",
+      "md5": "8338c9ec0336c0b4a9e8779a2213522d",
       "category": "env",
       "platforms": [
         "android"
