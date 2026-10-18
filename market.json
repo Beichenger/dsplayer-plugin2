@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "DsPlayer JmwPower插件市场",
   "desc": "JmwPower维护的插件分发索引",
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-18T15:16:00+08:00",
   "plugins": [
     {
       "id": "duoju-lite-green",
@@ -20,7 +20,10 @@
       ],
       "changelog": "包结构调整：二进制置于包根目录，去除 bin/ds 目录。",
       "md5": "6726a6eb72f50cf3fbad90425558466c",
-      "category": "env"
+      "category": "env",
+      "platforms": [
+        "android"
+      ]
     },
     {
       "id": "djduanju",
@@ -38,7 +41,11 @@
         "本地源",
         "应用"
       ],
-      "icon": "icons/demo-sources.png"
+      "icon": "icons/demo-sources.png",
+      "platforms": [
+        "android",
+        "win32"
+      ]
     },
     {
       "id": "musick-api",
@@ -78,7 +85,11 @@
         "本地源",
         "应用"
       ],
-      "icon": "icons/musick.png"
+      "icon": "icons/musick.png",
+      "platforms": [
+        "android",
+        "win32"
+      ]
     },
     {
       "id": "duoju-ting",
@@ -96,7 +107,10 @@
       ],
       "changelog": "搜索排序优化。",
       "md5": "86536e101f535fa231d4a301bc35a33c",
-      "category": "env"
+      "category": "env",
+      "platforms": [
+        "android"
+      ]
     },
     {
       "id": "duoju-ting-source",
@@ -114,7 +128,11 @@
       ],
       "changelog": "修复 searchUrl 为空导致的搜索无结果。",
       "md5": "450b0d5f3b9c4f4b92726adab55adcbd",
-      "category": "source"
+      "category": "app",
+      "platforms": [
+        "android",
+        "win32"
+      ]
     },
     {
       "id": "duojupan",
@@ -165,7 +183,7 @@
       "desc": "豆瓣影视聚合盘搜规则：豆瓣分类/搜索聚合夸克/UC/百度网盘资源，封面与详细资料推送到原生播放页。需先安装「多聚网盘」。",
       "version": "1.0.0",
       "type": "source",
-      "category": "source",
+      "category": "app",
       "url": "packages/douban-pansou-1.0.0.zip",
       "size": 12861,
       "md5": "77cf125f9a15331bbc5d2db7fd9ff821",

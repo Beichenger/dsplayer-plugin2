@@ -1,6 +1,6 @@
 # dsplayer-plugin
 
-DsPlayer 插件市场仓库：`market.json` 为市场索引（在线安装入口），`packages/` 存放插件包，`icons/` 存放条目图标。
+DsPlayer 插件市场仓库：`market.json` 为市场索引（在线安装入口），`packages/` 存放插件包，`icons/` 存放条目图标，`check_market.py` 为发版前对账闸门（在仓库根目录执行）。
 
 市场地址（DsPlayer 内添加）：
 
@@ -8,16 +8,21 @@ DsPlayer 插件市场仓库：`market.json` 为市场索引（在线安装入口
 https://raw.githubusercontent.com/JMWpower/dsplayer-plugin/main/market.json
 ```
 
-## 条目
+### 环境（env）
 
-| 条目 | 版本 | 说明 |
-|---|---|---|
-| 多聚短剧·绿色版 | 1.4.59 | 多聚短剧精简版 |
-| 多聚短剧配套源 | 0.0.2 | 短剧库规则 |
-| MusicK音乐 | 1.0.0 | 本地音乐聚合服务端 |
-| MusicK音乐配套源 | 1.2.1 | MusicK 配套规则 |
-| 多聚听书 | 1.9.2 | 听书后端服务 |
-| 多聚听书配套源 | 1.9.1 | 听书规则 |
-| 多聚网盘 | 1.5.0 | 夸克/UC/百度网盘后台（安卓） |
-| 多聚网盘 Windows版 | 1.5.0 | 多聚网盘后台（Windows） |
-| 豆瓣盘搜 | 1.0.0 | 豆瓣聚合盘搜规则（需多聚网盘） |
+| 条目 | id | 版本 | type | 包 |
+|---|---|---|---|---|
+| 多聚短剧·绿色版 | `duoju-lite-green` | 1.4.59 | import | `duoju-lite-green.zip` |
+| 多聚听书 | `duoju-ting` | 1.9.2 | import | `duoju-ting.zip` |
+| 多聚网盘（安卓） | `duojupan` | 1.5.0 | import | `duojupan-1.5.0.zip` |
+| 多聚网盘（Windows） | `duojupan-win` | 1.5.0 | import | `duojupan-win-1.5.0.zip` |
+
+### 应用（app）
+
+| 条目 | id | 版本 | type | 包 |
+|---|---|---|---|---|
+| 多聚短剧配套源 | `djduanju` | 0.0.2 | source | `djduanju.zip` |
+| MusicK音乐 | `musick-api` | 1.0.0 | server | `music_api-main.zip` |
+| MusicK音乐配套源 | `musick-source` | 1.2.1 | source | `musick-source.zip` |
+| 多聚听书配套源 | `duoju-ting-source` | 1.9.1 | source | `duoju-ting-source.zip` |
+| 豆瓣盘搜 | `douban-pansou` | 1.0.0 | source | `douban-pansou-1.0.0.zip` |
